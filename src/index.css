@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-datatable td,
+.p-datatable th {
+  border: 1px solid #ddd;
+}
+
+/* Optional: Add padding to cells */
+.p-datatable td {
+  padding: 15px;
+}
