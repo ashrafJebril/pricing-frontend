@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-
+import {getCustomers} from '../services/customerService'
 // Sample customer data
 const sampleCustomers = [
   {
